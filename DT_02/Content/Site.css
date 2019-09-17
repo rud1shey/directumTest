@@ -1,0 +1,77 @@
+﻿body, div, ul, li,nav {
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin:5px;
+}
+
+.search-container {
+    display: inline-block;
+    margin-top:50px;
+    margin-left:15px;
+    float:right;
+    right:0;
+}
+
+    .search-container.max {
+        flex: 1;
+    }
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+}
+.main-body-block{
+    margin:0 auto;
+}
+
+.content-block{
+    height:300px;
+}
+
+.footer-menu-item {
+    font-size: 12px;
+    padding-left:12px;
+}
+
+small-font-size {
+    font-size: 13px;
+}
+
+.banner{
+    height:148px;
+}
+
+.image-block {
+    display:inline-block;
+}
+    .image-block .image-block-item {
+        display: inline-block;
+        width:100px;
+        height:100px;
+        margin-right:5px;
+    }
+
+.image {
+    height:300px;
+}
+.text {
+    position:absolute;
+    text-align:center;
+    top:45%;
+    left:45%;
+    color:black;
+}
+.text .title{
+    font-size:20px;
+}
+.description,.title_name{
+    margin-left:17px;
+}
+    .title_name{
+        font-weight:bold;
+    }
+    .description {
+        font-style: italic;
+    }
